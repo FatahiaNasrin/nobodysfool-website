@@ -1,0 +1,98 @@
+/* * Responsive Required Screen List
+----------------
+
+**Desktop**
+1920 x 1080
+1366 x 768
+1280 x 850
+
+**Tablet**  (landscape and portrait)
+1024 x 640
+768 x 1024
+
+**Mobile**  (landscape and portrait)
+480 x 853
+414 x 736 (**iPhone 6/7/8 plus**)
+375 x 667 (**iPhone 6/7/8 **)
+375 x 812 (**iPhone X **)
+360 x 640
+320 x 568 (**iPhone 5/SE**)
+320 x 480 (**iPhone 4**)
+
+Less Required Screen
+----------------
+800 x 1280
+600 x 960 */ 
+
+  
+    /* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    .top-bar {
+        padding-left: 0px;
+        padding-right: 0px;
+     }
+     .search-bar{
+         padding-top: 10px;
+         padding-left: 0px;
+     }
+     .Text-Block h2{
+         font-size: 25px;
+     }
+     .button{
+         margin-bottom: 15px;
+     }
+     .contact-single{
+         margin-bottom: 20px;
+     }
+     .button-1{
+         text-align: center;
+     }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+        .top-bar {
+            padding-left: 0px;
+            padding-right: 0px;
+         }
+         .search-bar{
+            padding-top: 10px;
+            padding-left: 0px;
+        }
+        .Text-Block h2{
+            font-size: 25px;
+        }
+        .button{
+            margin-bottom: 15px;
+        }
+        .contact-single{
+            margin-bottom: 20px;
+        }
+        .button-1{
+            text-align: center;
+        }
+    }
+    
+    /* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+
+    /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    }
+
+    /*  laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    /* Styles */
+    }
+    
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+    /* Styles */
+    }
