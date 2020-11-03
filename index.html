@@ -6,11 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    
 </head>
 <body>
-          <section class="top-bar">
+          <section id="top-bar">
         <div class="container">
           <div class="row">
             <div class="col-md-4 ">
@@ -179,9 +180,9 @@
                     <p style="font-family: 'Roboto-Regular'; font-size: 18px;">Why not try our services today, you won’t regret your choice !</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 contact-us-description">
                 <div class="right-shout">
-                    <button type="button" class="btn btn-primary"><p style="font-family: 'Roboto-Regular'; font-size: 26px; margin-bottom: 0px;">CONTACT US TODAY</p></button>
+                    <button type="button" class="btn btn-primary"><p class="contact-p" style="font-family: 'Roboto-Regular'; font-size: 26px; margin-bottom: 0px;">CONTACT US TODAY</p></button>
                 </div>
             </div>
         </div>
@@ -198,7 +199,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="single-footer">
                   <h3 style="z-index: 1;">ABOUT US</h3>
-                  <img style="margin-top: 15px;" src="images/about-us-img.png" alt="">
+                  <img style="margin-top: 15px;" class="img-fluid" src="images/about-us-img.png" alt="">
                   <P style="margin-top: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque. Quisque non luctus sem. Nullam non magna vel nisi posuere bibendum vitae sed dui. </P>
                   <div class="read-more">
                     <a  href="">Read More  <i class="fas fa-angle-double-right"></i></a>
@@ -245,7 +246,7 @@
                 <div class="single-footer">
                  <div class="footer-section contact-form">
                   <h3>CONTACT US</h3>
-                  <form action="">
+                  <form action="" class="form">
                     <input type="text" class="text-input contact-input" name="" placeholder="Name" id="">
                     <input type="text" class="text-input contact-input" name="" placeholder="Email" id="">
                     <input type="text" class="text-input contact-input" name="" placeholder="Subject" id="">

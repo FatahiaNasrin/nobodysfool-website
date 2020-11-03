@@ -24,16 +24,19 @@ Less Required Screen
 800 x 1280
 600 x 960 */ 
 
-  
-    /* iPhone 5 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    .top-bar {
+
+
+
+@media screen and (max-width: 480px) {
+    #top-bar {
         padding-left: 0px;
         padding-right: 0px;
+        padding-bottom: 15px;
      }
      .search-bar{
          padding-top: 10px;
          padding-left: 0px;
+         margin-top: 10px;
      }
      .Text-Block h2{
          font-size: 25px;
@@ -44,55 +47,36 @@ Less Required Screen
      .contact-single{
          margin-bottom: 20px;
      }
-     .button-1{
-         text-align: center;
-     }
+    }
+    /* iPad or tablets  ----------- */
+    @media screen and (max-width: 768px) {
+    .social-icons{
+        margin-top: 10px;
+    }
+    .form-inline input{
+        margin-bottom: 10px;
+    }
+    .Text-Block{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .slider-image{
+        margin-top: 50px;
+    }
+    .contact-us-description {
+        margin-top: 50px;
+        
+    }
+  .right-shout  .contact-p{
+        font-size: 15px;
+    }
+    .text-input{
+        width: 150px;
+    }
+    .message-input{
+        width: 150px;
+    }
     }
     
-    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
+   
     
-    /* iPhone 6, 7, 8 ----------- */
-    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-        .top-bar {
-            padding-left: 0px;
-            padding-right: 0px;
-         }
-         .search-bar{
-            padding-top: 10px;
-            padding-left: 0px;
-        }
-        .Text-Block h2{
-            font-size: 25px;
-        }
-        .button{
-            margin-bottom: 15px;
-        }
-        .contact-single{
-            margin-bottom: 20px;
-        }
-        .button-1{
-            text-align: center;
-        }
-    }
-    
-    /* iPhone 6+, 7+, 8+ ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-
-    /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    /* Styles */
-    }
-
-    /*  laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-    /* Styles */
-    }
-    
-    /* Large screens ----------- */
-    @media only screen  and (min-width : 1824px) {
-    /* Styles */
-    }
